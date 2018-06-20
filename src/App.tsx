@@ -17,7 +17,7 @@ class App extends React.Component {
 
         <body>
 
-        <h1>První změna k commitu</h1>
+        <h1>Druhá změna k commitu</h1>
         <p>ahoj</p>
 
         </body>
