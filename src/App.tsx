@@ -3,7 +3,17 @@ import './App.css';
 
 import logo from './logo.svg';
 
-class App extends React.Component {
+
+interface ITestProps {
+  name: string;
+}
+
+function SayHello(props: ITestProps) {
+  return (<h1>Hello {props.name}</h1>)
+}
+
+class App extends React.Component<any,any> {
+
   public render() {
     return (
       <div className="App">
@@ -11,15 +21,9 @@ class App extends React.Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.tsx</code> and save to reload.
-        </p>
 
         <body>
-
-        <h1>První změna k commitu</h1>
-        <p>ahoj</p>
-
+        <SayHello name="love of my life"/>
         </body>
       </div>
     );
