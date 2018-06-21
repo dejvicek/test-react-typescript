@@ -23,7 +23,14 @@ class App extends React.Component<any,any> {
         </header>
 
         <body>
+<<<<<<< HEAD
         <SayHello name="love of my life"/>
+=======
+
+        <h1>Druhá změna k commitu</h1>
+        <p>čau</p>
+
+>>>>>>> 0a82d37083bbf4b13218afeb665b7cbf4c7a9f20
         </body>
       </div>
     );
